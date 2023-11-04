@@ -14,6 +14,15 @@
 		74AA39372AF60BCA00BA2BA5 /* HelloWorldAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39362AF60BCA00BA2BA5 /* HelloWorldAppTests.swift */; };
 		74AA39412AF60BCA00BA2BA5 /* HelloWorldAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39402AF60BCA00BA2BA5 /* HelloWorldAppUITests.swift */; };
 		74AA39432AF60BCA00BA2BA5 /* HelloWorldAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39422AF60BCA00BA2BA5 /* HelloWorldAppUITestsLaunchTests.swift */; };
+<<<<<<< Updated upstream
+=======
+		74AA39532AF6182500BA2BA5 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39522AF6182500BA2BA5 /* SFSymbols.swift */; };
+		74AA39572AF68F2000BA2BA5 /* friendsTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39562AF68F2000BA2BA5 /* friendsTimeline.swift */; };
+		74AA39592AF68F3200BA2BA5 /* scrapbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39582AF68F3200BA2BA5 /* scrapbook.swift */; };
+		74AA395B2AF68F3900BA2BA5 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA395A2AF68F3900BA2BA5 /* map.swift */; };
+		74AA395F2AF6A46600BA2BA5 /* selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA395E2AF6A46600BA2BA5 /* selfie.swift */; };
+		74AA39612AF6A47400BA2BA5 /* emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39602AF6A47400BA2BA5 /* emoji.swift */; };
+>>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,15 @@
 		74AA393C2AF60BCA00BA2BA5 /* HelloWorldAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA39402AF60BCA00BA2BA5 /* HelloWorldAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldAppUITests.swift; sourceTree = "<group>"; };
 		74AA39422AF60BCA00BA2BA5 /* HelloWorldAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+<<<<<<< Updated upstream
+=======
+		74AA39522AF6182500BA2BA5 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
+		74AA39562AF68F2000BA2BA5 /* friendsTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsTimeline.swift; sourceTree = "<group>"; };
+		74AA39582AF68F3200BA2BA5 /* scrapbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrapbook.swift; sourceTree = "<group>"; };
+		74AA395A2AF68F3900BA2BA5 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		74AA395E2AF6A46600BA2BA5 /* selfie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfie.swift; sourceTree = "<group>"; };
+		74AA39602AF6A47400BA2BA5 /* emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emoji.swift; sourceTree = "<group>"; };
+>>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +112,14 @@
 		74AA39242AF60BC600BA2BA5 /* HelloWorldApp */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< Updated upstream
 				74AA39252AF60BC600BA2BA5 /* HelloWorldAppApp.swift */,
 				74AA39272AF60BC600BA2BA5 /* ContentView.swift */,
+=======
+				74AA395D2AF6A37A00BA2BA5 /* Views */,
+				74AA39512AF6181200BA2BA5 /* Utilities */,
+				74AA39252AF60BC600BA2BA5 /* HelloWorldAppApp.swift */,
+>>>>>>> Stashed changes
 				74AA39292AF60BC900BA2BA5 /* Assets.xcassets */,
 				74AA392B2AF60BC900BA2BA5 /* Preview Content */,
 			);
@@ -127,6 +151,30 @@
 			path = HelloWorldAppUITests;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
+=======
+		74AA39512AF6181200BA2BA5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				74AA39522AF6182500BA2BA5 /* SFSymbols.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		74AA395D2AF6A37A00BA2BA5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				74AA39272AF60BC600BA2BA5 /* mainTimeline.swift */,
+				74AA39562AF68F2000BA2BA5 /* friendsTimeline.swift */,
+				74AA39582AF68F3200BA2BA5 /* scrapbook.swift */,
+				74AA395A2AF68F3900BA2BA5 /* map.swift */,
+				74AA395E2AF6A46600BA2BA5 /* selfie.swift */,
+				74AA39602AF6A47400BA2BA5 /* emoji.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+>>>>>>> Stashed changes
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -257,8 +305,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				74AA39282AF60BC600BA2BA5 /* ContentView.swift in Sources */,
 				74AA39262AF60BC600BA2BA5 /* HelloWorldAppApp.swift in Sources */,
+=======
+				74AA395B2AF68F3900BA2BA5 /* map.swift in Sources */,
+				74AA39282AF60BC600BA2BA5 /* mainTimeline.swift in Sources */,
+				74AA39612AF6A47400BA2BA5 /* emoji.swift in Sources */,
+				74AA39262AF60BC600BA2BA5 /* HelloWorldAppApp.swift in Sources */,
+				74AA39572AF68F2000BA2BA5 /* friendsTimeline.swift in Sources */,
+				74AA39532AF6182500BA2BA5 /* SFSymbols.swift in Sources */,
+				74AA39592AF68F3200BA2BA5 /* scrapbook.swift in Sources */,
+				74AA395F2AF6A46600BA2BA5 /* selfie.swift in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
