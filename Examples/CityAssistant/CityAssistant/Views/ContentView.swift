@@ -11,37 +11,50 @@ import RealityKit
 
 struct ContentView : View {
     
+    @State private var favoriteColor = 0
     init() {
         
     }
-    
     var body: some View {
-        ZStack{
-            VStack(alignment: .trailing) {
-                NavigationStack {
-                    NavigationLink {
-                        CrimeView()
-                    } label: {
-                        Label("2D Map", systemImage: "map")
-                    }
-                    NavigationLink {
-                        CityTourViewWrapper()
-                    } label: {
-                        Label("City Tour", systemImage: "camera")
-                    }
-                    NavigationLink {
-                        AboutView()
-                    } label: {
-                        Label("About this app", systemImage: "info")
+        VStack {
+            HStack {
+                Image("gearshape").padding()
+            }
+            Picker("What is your favorite color?", selection: $favoriteColor) {
+                Text("Red").tag(0)
+                Text("Green").tag(1)
+                Text("Blue").tag(2)
+            }
+            .pickerStyle(.segmented)
+            
+            
+            ZStack{
+                VStack(alignment: .trailing) {
+                    NavigationStack {
+                        NavigationLink {
+                            CrimeView()
+                        } label: {
+                            Label("2D", systemImage: "map")
+                        }
+                        NavigationLink {
+                            CityTourViewWrapper()
+                        } label: {
+                            Label("City Tour", systemImage: "camera")
+                        }
+                        NavigationLink {
+                            AboutView()
+                        } label: {
+                            Label("About this app", systemImage: "info")
+                        }
                     }
                 }
             }
         }
     }
-}
-
-struct Content_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    struct Content_Previews : PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

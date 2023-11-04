@@ -103,7 +103,6 @@ public class CityTourViewModel : ObservableObject
                 var currentSlotPOI = visiblePOIs.first(where: { poiEntity in
                     poiEntity.value.Id == actuallyCurrentlySlotted?.value.Id
                 })
-                currentlySlotted = (actuallyCurrentlySlotted!.value,)
             }
 
             for poi in loadedPOIs {
