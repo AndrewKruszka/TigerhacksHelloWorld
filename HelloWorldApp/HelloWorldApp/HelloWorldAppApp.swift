@@ -11,9 +11,7 @@ import SwiftUI
 struct HelloWorldAppApp: App {
     var body: some Scene {
         WindowGroup {
-            mainTimeline()
-            friendsTimeline()
-            emoji()
+            emojiPopup()
         }
     }
 }
