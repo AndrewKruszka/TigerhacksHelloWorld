@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginView: View {
+struct CreateAccountView: View {
     @State var email: String = ""
     @State var password: String = ""
     @State var displayPassword: Bool = false
@@ -23,13 +23,13 @@ struct LoginView: View {
         self.viewModel = LoginViewModel()
     }
     
-    func handleLogin() {
+    func handleCreation() {
         if(email.isEmpty || password.isEmpty)
         {
             return;
         }
         
-        viewModel.Login(username: email, password: password)
+        viewModel.CreateUser(username: email, password: password)
     }
     
     var body: some View {
@@ -44,7 +44,7 @@ struct LoginView: View {
                     .opacity(1.0)
                 
                 Form {
-                    Section(header: Text("Login").font(.title)) {
+                    Section(header: Text("Create Account").font(.title)) {
                         VStack {
                             TextField(
                                 "Email",
@@ -78,8 +78,7 @@ struct LoginView: View {
                             }
                             .textFieldStyle(.roundedBorder)
                         }
-                        Button("Sign In", action: handleLogin)
-                        //Button("Register", action: handleRegister)
+                        Button("Create", action: handleCreation)
                     }
                 }
             }
@@ -87,8 +86,8 @@ struct LoginView: View {
     }
 }
 
-struct LoginView_Previews: PreviewProvider {
+struct CreateAccountView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView()
+        CreateAccountView()
     }
 }

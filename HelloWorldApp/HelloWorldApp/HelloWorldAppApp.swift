@@ -11,7 +11,7 @@ import SwiftUI
 struct HelloWorldAppApp: App {
     var body: some Scene {
         WindowGroup {
-            emojiPopup()
+            ContentView()
         }
     }
 }
