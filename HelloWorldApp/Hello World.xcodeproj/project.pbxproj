@@ -22,7 +22,6 @@
 		74AA39532AF6182500BA2BA5 /* SFSymbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39522AF6182500BA2BA5 /* SFSymbols.swift */; };
 		74AA39572AF68F2000BA2BA5 /* friendsTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39562AF68F2000BA2BA5 /* friendsTimeline.swift */; };
 		74AA39592AF68F3200BA2BA5 /* scrapbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39582AF68F3200BA2BA5 /* scrapbook.swift */; };
-		74AA395B2AF68F3900BA2BA5 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA395A2AF68F3900BA2BA5 /* map.swift */; };
 		74AA39642AF6B7FC00BA2BA5 /* emojiPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39632AF6B7FC00BA2BA5 /* emojiPopup.swift */; };
 		BDA6E80A2AF749E8000229F6 /* HttpClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8092AF749E8000229F6 /* HttpClientHelper.swift */; };
 		BDA6E80D2AF74A23000229F6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E80C2AF74A23000229F6 /* Result.swift */; };
@@ -41,6 +40,10 @@
 		BDA6E82C2AF755A2000229F6 /* InteractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E82B2AF755A2000229F6 /* InteractionViewModel.swift */; };
 		BDA6E82E2AF75D32000229F6 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E82D2AF75D32000229F6 /* CreateAccountView.swift */; };
 		BDA6E8312AF778CC000229F6 /* CreateUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8302AF778CC000229F6 /* CreateUserResponse.swift */; };
+		BDA6E8332AF780F3000229F6 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8322AF780F3000229F6 /* NotificationManager.swift */; };
+		BDA6E8352AF78A81000229F6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8342AF78A81000229F6 /* MapView.swift */; };
+		BDA6E8372AF78ACD000229F6 /* AnnotationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8362AF78ACD000229F6 /* AnnotationItem.swift */; };
+		BDA6E8392AF78EE6000229F6 /* LocationTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8382AF78EE6000229F6 /* LocationTimeline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +82,6 @@
 		74AA39522AF6182500BA2BA5 /* SFSymbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbols.swift; sourceTree = "<group>"; };
 		74AA39562AF68F2000BA2BA5 /* friendsTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friendsTimeline.swift; sourceTree = "<group>"; };
 		74AA39582AF68F3200BA2BA5 /* scrapbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrapbook.swift; sourceTree = "<group>"; };
-		74AA395A2AF68F3900BA2BA5 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 		74AA39632AF6B7FC00BA2BA5 /* emojiPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiPopup.swift; sourceTree = "<group>"; };
 		BDA6E8092AF749E8000229F6 /* HttpClientHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientHelper.swift; sourceTree = "<group>"; };
 		BDA6E80C2AF74A23000229F6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
@@ -99,6 +101,10 @@
 		BDA6E82D2AF75D32000229F6 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		BDA6E82F2AF7669C000229F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BDA6E8302AF778CC000229F6 /* CreateUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserResponse.swift; sourceTree = "<group>"; };
+		BDA6E8322AF780F3000229F6 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		BDA6E8342AF78A81000229F6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		BDA6E8362AF78ACD000229F6 /* AnnotationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationItem.swift; sourceTree = "<group>"; };
+		BDA6E8382AF78EE6000229F6 /* LocationTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTimeline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +199,7 @@
 				74AA39522AF6182500BA2BA5 /* SFSymbols.swift */,
 				BDA6E8092AF749E8000229F6 /* HttpClientHelper.swift */,
 				BDA6E8232AF75239000229F6 /* LocationManager.swift */,
+				BDA6E8322AF780F3000229F6 /* NotificationManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -203,7 +210,6 @@
 				74AA39272AF60BC600BA2BA5 /* appWrapper.swift */,
 				74AA39562AF68F2000BA2BA5 /* friendsTimeline.swift */,
 				74AA39582AF68F3200BA2BA5 /* scrapbook.swift */,
-				74AA395A2AF68F3900BA2BA5 /* map.swift */,
 				74AA39632AF6B7FC00BA2BA5 /* emojiPopup.swift */,
 				74728FF12AF6CD7000A1A022 /* mainTimeline.swift */,
 				747290032AF6E9D600A1A022 /* ViewController.swift */,
@@ -211,6 +217,8 @@
 				747290072AF749E400A1A022 /* LoginView.swift */,
 				747290082AF749E400A1A022 /* Image.swift */,
 				BDA6E82D2AF75D32000229F6 /* CreateAccountView.swift */,
+				BDA6E8342AF78A81000229F6 /* MapView.swift */,
+				BDA6E8382AF78EE6000229F6 /* LocationTimeline.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 				BDA6E8252AF75258000229F6 /* Coordinate.swift */,
 				BDA6E8292AF75384000229F6 /* Interaction.swift */,
 				BDA6E8302AF778CC000229F6 /* CreateUserResponse.swift */,
+				BDA6E8362AF78ACD000229F6 /* AnnotationItem.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -388,8 +397,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AA395B2AF68F3900BA2BA5 /* map.swift in Sources */,
 				7472900A2AF749E400A1A022 /* Image.swift in Sources */,
+				BDA6E8392AF78EE6000229F6 /* LocationTimeline.swift in Sources */,
 				74728FF22AF6CD7000A1A022 /* mainTimeline.swift in Sources */,
 				747290062AF6EA0800A1A022 /* selfieCamera.swift in Sources */,
 				BDA6E8202AF75131000229F6 /* Landmark.swift in Sources */,
@@ -398,8 +407,10 @@
 				BDA6E8262AF75258000229F6 /* Coordinate.swift in Sources */,
 				747290042AF6E9D600A1A022 /* ViewController.swift in Sources */,
 				BDA6E81A2AF74AD4000229F6 /* LoginDataAccess.swift in Sources */,
+				BDA6E8352AF78A81000229F6 /* MapView.swift in Sources */,
 				BDA6E82E2AF75D32000229F6 /* CreateAccountView.swift in Sources */,
 				BDA6E8102AF74A4E000229F6 /* LoadingState.swift in Sources */,
+				BDA6E8332AF780F3000229F6 /* NotificationManager.swift in Sources */,
 				BDA6E8222AF75210000229F6 /* LandmarkViewModel.swift in Sources */,
 				BDA6E8282AF7535A000229F6 /* InteractionDataAccess.swift in Sources */,
 				BDA6E81C2AF74B12000229F6 /* User.swift in Sources */,
@@ -411,6 +422,7 @@
 				BDA6E80A2AF749E8000229F6 /* HttpClientHelper.swift in Sources */,
 				BDA6E8122AF74A60000229F6 /* LoadingError.swift in Sources */,
 				74AA39572AF68F2000BA2BA5 /* friendsTimeline.swift in Sources */,
+				BDA6E8372AF78ACD000229F6 /* AnnotationItem.swift in Sources */,
 				BDA6E8242AF75239000229F6 /* LocationManager.swift in Sources */,
 				74AA39532AF6182500BA2BA5 /* SFSymbols.swift in Sources */,
 				747290092AF749E400A1A022 /* LoginView.swift in Sources */,

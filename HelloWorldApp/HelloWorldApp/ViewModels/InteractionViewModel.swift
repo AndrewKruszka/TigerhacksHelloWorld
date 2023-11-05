@@ -16,6 +16,7 @@ public class InteractionViewModel : ObservableObject
 
     private let dataAccess: InteractionDataAccess
     private let locationManager = LocationManager()
+    private let notificationManager = NotificationManager()
     
     public init(userId: Int)
     {
@@ -50,6 +51,7 @@ public class InteractionViewModel : ObservableObject
             await MainActor.run
             {
                 loadedInteraction = result.Data
+                notificationManager.sendNotification(message: "There is a friend in the area")
             }
         }
 

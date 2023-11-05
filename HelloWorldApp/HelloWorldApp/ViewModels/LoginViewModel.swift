@@ -42,7 +42,7 @@ public class LoginViewModel : ObservableObject
         Task.init
         {
             //we should probably have the view pass a user obj in but idc
-            var result = await dataAccess.CreateUser(user: User(userId: 0, name: username, passHash: password))
+            let result = await dataAccess.CreateUser(user: User(userId: 0, name: username, passHash: password))
             
             if(!result.Success)
             {

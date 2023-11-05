@@ -10,7 +10,7 @@ import Foundation
 public class LandmarkViewModel : ObservableObject
 {
     @Published var userLocation: Coordinate
-    @Published var loadedLandmarks: [Landmark]
+    @Published var loadedLandmarks: [Landmark]?
     
     private let dataAccess: LandmarkDataAccess
     private let locationManager = LocationManager()
@@ -29,5 +29,23 @@ public class LandmarkViewModel : ObservableObject
     
     func PositionChanged(coordinate: Coordinate) {
         userLocation = coordinate
+    }
+    
+    func GetLandmarks()
+    {
+        Task.init
+        {
+            //we should probably have the view pass a user obj in but idc
+            let result = await dataAccess.GetLandmarks()
+            if(!result.Success)
+            {
+                return
+            }
+            
+            await MainActor.run
+            {
+                loadedLandmarks = result.Data
+            }
+        }
     }
 }

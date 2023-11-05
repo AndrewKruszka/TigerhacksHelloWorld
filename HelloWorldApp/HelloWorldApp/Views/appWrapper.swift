@@ -21,44 +21,41 @@ struct ContentView: View {
     }
 
     var body: some View {
-        if(loginViewModel.loadedUser != nil)
-        {
             ZStack{
-                Color.gray
-                    .ignoresSafeArea()
-                ScrollView(.horizontal, showsIndicators: true) {
-                    LazyHStack(spacing: 10) {
-                        emojiPopup().frame(width: 400, height: 750).id(1)
-                        emojiPopup().frame(width: 400, height: 750).id(2)
-                        emojiPopup().frame(width: 400, height: 750).id(3)
-                        emojiPopup().frame(width: 400, height: 750).id(4)
-                    }
-                        .onAppear() {
-                            position = 2
-                        }
-                }
-            }
-        }
-        else
-        {
-            HStack
-            {
-                NavigationStack
+                Color.gray.ignoresSafeArea()
+                if(loginViewModel.loadedUser != nil)
                 {
-                    NavigationLink {
-                        LoginView(viewModel: loginViewModel)
-                    } label: {
-                        Text("Login")
-                            .bold()
-                    }
-                    NavigationLink {
-                        CreateAccountView(viewModel: loginViewModel)
-                    } label: {
-                        Text("Create Account")
-                            .bold()
+                    ScrollView(.horizontal, showsIndicators: true) {
+                        LazyHStack(spacing: 10) {
+                            emojiPopup().frame(width: 400, height: 750).id(1).ignoresSafeArea()
+                            MapView(userLocation: interactionViewModel.userLocation, annotations: landmarkViewModel.loadedLandmarks?.map{AnnotationItem(coordinate: $0.Coordinate, title: $0.DisplayName)} ?? []).frame(width: 400, height: 750).id(2).ignoresSafeArea()
+                            emojiPopup().frame(width: 400, height: 750).id(3).ignoresSafeArea()
+                            emojiPopup().frame(width: 400, height: 750).id(4).ignoresSafeArea()
+                        }.onAppear() { position = 2 }.ignoresSafeArea()
+                    }.edgesIgnoringSafeArea(.all)
+                }
+                else
+                {
+                    HStack
+                    {
+                        NavigationStack
+                        {
+                            NavigationLink {
+                                LoginView(viewModel: loginViewModel)
+                            } label: {
+                                Text("Login")
+                                    .bold()
+                            }
+                            NavigationLink {
+                                CreateAccountView(viewModel: loginViewModel)
+                            } label: {
+                                Text("Create Account")
+                                    .bold()
+                            }
+                        }
                     }
                 }
-            }
+            }.ignoresSafeArea()
         }
     }
-}
+
