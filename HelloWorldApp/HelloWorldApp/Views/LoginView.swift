@@ -16,55 +16,43 @@ struct LoginView: View {
         print("Hello, World!")
     }
     var body: some View {
-        
-        GeometryReader { geo in
-            ZStack {
-                Image("background")
-                    .resizable()
-                    .scaledToFit()
-                    .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                    .frame(width: geo.size.width, height: geo.size.height, alignment: .center)
-                    .opacity(1.0)
-                
-                Form {
-                    Section(header: Text("Login").font(.title)) {
-                        VStack {
+        Form {
+            Section(header: Text("Login").font(.title)) {
+                VStack {
+                    TextField(
+                        "Email",
+                        text: $email,
+                        prompt: Text("Email")).padding()
+                        .autocapitalization(.none)
+                        .disableAutocorrection(true)
+                        .textFieldStyle(.roundedBorder)
+                    
+                    HStack {
+                        if displayPassword {
                             TextField(
-                                "Email",
-                                text: $email,
-                                prompt: Text("Email")).padding()
-                                .autocapitalization(.none)
-                                .disableAutocorrection(true)
-                                .textFieldStyle(.roundedBorder)
-                            
-                            HStack {
-                                if displayPassword {
-                                    TextField(
-                                        "Password",
-                                        text: $password,
-                                        prompt: Text("Password"))
-                                    .padding()
-                                    .disableAutocorrection(true)
-                                } else {
-                                    SecureField(
-                                        "Password",
-                                        text: $password,
-                                        prompt: Text("Password"))
-                                    .padding()
-                                    .disableAutocorrection(true)
-                                }
-                                Button {
-                                    displayPassword.toggle()
-                                } label: {
-                                    Image(systemName: displayPassword ? "eye.slash" : "eye")
-                                }
-                            }
-                            .textFieldStyle(.roundedBorder)
+                                "Password",
+                                text: $password,
+                                prompt: Text("Password"))
+                            .padding()
+                            .disableAutocorrection(true)
+                        } else {
+                            SecureField(
+                                "Password",
+                                text: $password,
+                                prompt: Text("Password"))
+                            .padding()
+                            .disableAutocorrection(true)
                         }
-                        Button("Sign In", action: handleLogin)
-                        //Button("Register", action: handleRegister)
+                        Button {
+                            displayPassword.toggle()
+                        } label: {
+                            Image(systemName: displayPassword ? "eye.slash" : "eye")
+                        }
                     }
+                    .textFieldStyle(.roundedBorder)
                 }
+                Button("Sign In", action: handleLogin)
+                //Button("Register", action: handleRegister)
             }
         }
     }
