@@ -246,7 +246,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74AA391D2AF60BC500BA2BA5 /* Build configuration list for PBXProject "HelloWorldApp" */;
+			buildConfigurationList = 74AA391D2AF60BC500BA2BA5 /* Build configuration list for PBXProject "Hello World" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -470,7 +470,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorldApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8HU6N98YH9;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -500,7 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorldApp/Preview Content\"";
-				DEVELOPMENT_TEAM = 8HU6N98YH9;
+				DEVELOPMENT_TEAM = FHVKV8SUYW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
@@ -601,7 +601,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74AA391D2AF60BC500BA2BA5 /* Build configuration list for PBXProject "HelloWorldApp" */ = {
+		74AA391D2AF60BC500BA2BA5 /* Build configuration list for PBXProject "Hello World" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74AA39442AF60BCA00BA2BA5 /* Debug */,
