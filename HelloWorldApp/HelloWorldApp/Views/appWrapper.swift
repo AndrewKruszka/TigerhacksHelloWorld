@@ -24,7 +24,7 @@ struct ContentView: View {
                     emojiPopup().frame(width: 400, height: 750).id(2)
                     emojiPopup().frame(width: 400, height: 750).id(3)
                     emojiPopup().frame(width: 400, height: 750).id(4)
-                }.scrollTargetLayout() 
+                }.scrollTargetLayout()
                  .onAppear() {
                     position = 2
                 }

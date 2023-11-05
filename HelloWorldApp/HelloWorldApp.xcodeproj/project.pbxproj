@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		74728FF22AF6CD7000A1A022 /* mainTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74728FF12AF6CD7000A1A022 /* mainTimeline.swift */; };
-		74728FF42AF6CF5D00A1A022 /* selfie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74728FF32AF6CF5D00A1A022 /* selfie.swift */; };
+		747290042AF6E9D600A1A022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747290032AF6E9D600A1A022 /* ViewController.swift */; };
+		747290062AF6EA0800A1A022 /* selfieCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747290052AF6EA0800A1A022 /* selfieCamera.swift */; };
 		74AA39262AF60BC600BA2BA5 /* HelloWorldAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39252AF60BC600BA2BA5 /* HelloWorldAppApp.swift */; };
 		74AA39282AF60BC600BA2BA5 /* appWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39272AF60BC600BA2BA5 /* appWrapper.swift */; };
 		74AA392A2AF60BC900BA2BA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA39292AF60BC900BA2BA5 /* Assets.xcassets */; };
@@ -42,7 +43,8 @@
 
 /* Begin PBXFileReference section */
 		74728FF12AF6CD7000A1A022 /* mainTimeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainTimeline.swift; sourceTree = "<group>"; };
-		74728FF32AF6CF5D00A1A022 /* selfie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfie.swift; sourceTree = "<group>"; };
+		747290032AF6E9D600A1A022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		747290052AF6EA0800A1A022 /* selfieCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selfieCamera.swift; sourceTree = "<group>"; };
 		74AA39222AF60BC600BA2BA5 /* HelloWorldApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA39252AF60BC600BA2BA5 /* HelloWorldAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldAppApp.swift; sourceTree = "<group>"; };
 		74AA39272AF60BC600BA2BA5 /* appWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appWrapper.swift; sourceTree = "<group>"; };
@@ -159,7 +161,8 @@
 				74AA395A2AF68F3900BA2BA5 /* map.swift */,
 				74AA39632AF6B7FC00BA2BA5 /* emojiPopup.swift */,
 				74728FF12AF6CD7000A1A022 /* mainTimeline.swift */,
-				74728FF32AF6CF5D00A1A022 /* selfie.swift */,
+				747290032AF6E9D600A1A022 /* ViewController.swift */,
+				747290052AF6EA0800A1A022 /* selfieCamera.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -294,10 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74728FF42AF6CF5D00A1A022 /* selfie.swift in Sources */,
 				74AA395B2AF68F3900BA2BA5 /* map.swift in Sources */,
 				74728FF22AF6CD7000A1A022 /* mainTimeline.swift in Sources */,
+				747290062AF6EA0800A1A022 /* selfieCamera.swift in Sources */,
 				74AA39282AF60BC600BA2BA5 /* appWrapper.swift in Sources */,
+				747290042AF6E9D600A1A022 /* ViewController.swift in Sources */,
 				74AA39262AF60BC600BA2BA5 /* HelloWorldAppApp.swift in Sources */,
 				74AA39572AF68F2000BA2BA5 /* friendsTimeline.swift in Sources */,
 				74AA39532AF6182500BA2BA5 /* SFSymbols.swift in Sources */,
@@ -469,6 +473,7 @@
 				DEVELOPMENT_TEAM = 8HU6N98YH9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -498,6 +503,7 @@
 				DEVELOPMENT_TEAM = 8HU6N98YH9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
