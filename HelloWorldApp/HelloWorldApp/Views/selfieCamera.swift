@@ -32,6 +32,3 @@ struct selfieView: View {
     }
 }
     
-#Preview {
-    selfieView()
-}

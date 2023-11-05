@@ -38,7 +38,3 @@ struct emojiPopup: View {
     }
 }
 
-
-#Preview {
-    emojiPopup()
-}

@@ -24,6 +24,23 @@
 		74AA39592AF68F3200BA2BA5 /* scrapbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39582AF68F3200BA2BA5 /* scrapbook.swift */; };
 		74AA395B2AF68F3900BA2BA5 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA395A2AF68F3900BA2BA5 /* map.swift */; };
 		74AA39642AF6B7FC00BA2BA5 /* emojiPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA39632AF6B7FC00BA2BA5 /* emojiPopup.swift */; };
+		BDA6E80A2AF749E8000229F6 /* HttpClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8092AF749E8000229F6 /* HttpClientHelper.swift */; };
+		BDA6E80D2AF74A23000229F6 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E80C2AF74A23000229F6 /* Result.swift */; };
+		BDA6E8102AF74A4E000229F6 /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E80F2AF74A4E000229F6 /* LoadingState.swift */; };
+		BDA6E8122AF74A60000229F6 /* LoadingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8112AF74A60000229F6 /* LoadingError.swift */; };
+		BDA6E8172AF74AA5000229F6 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8162AF74AA5000229F6 /* LoginViewModel.swift */; };
+		BDA6E81A2AF74AD4000229F6 /* LoginDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8192AF74AD4000229F6 /* LoginDataAccess.swift */; };
+		BDA6E81C2AF74B12000229F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E81B2AF74B12000229F6 /* User.swift */; };
+		BDA6E81E2AF750FD000229F6 /* LandmarkDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E81D2AF750FD000229F6 /* LandmarkDataAccess.swift */; };
+		BDA6E8202AF75131000229F6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E81F2AF75131000229F6 /* Landmark.swift */; };
+		BDA6E8222AF75210000229F6 /* LandmarkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8212AF75210000229F6 /* LandmarkViewModel.swift */; };
+		BDA6E8242AF75239000229F6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8232AF75239000229F6 /* LocationManager.swift */; };
+		BDA6E8262AF75258000229F6 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8252AF75258000229F6 /* Coordinate.swift */; };
+		BDA6E8282AF7535A000229F6 /* InteractionDataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8272AF7535A000229F6 /* InteractionDataAccess.swift */; };
+		BDA6E82A2AF75384000229F6 /* Interaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8292AF75384000229F6 /* Interaction.swift */; };
+		BDA6E82C2AF755A2000229F6 /* InteractionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E82B2AF755A2000229F6 /* InteractionViewModel.swift */; };
+		BDA6E82E2AF75D32000229F6 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E82D2AF75D32000229F6 /* CreateAccountView.swift */; };
+		BDA6E8312AF778CC000229F6 /* CreateUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6E8302AF778CC000229F6 /* CreateUserResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +81,24 @@
 		74AA39582AF68F3200BA2BA5 /* scrapbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrapbook.swift; sourceTree = "<group>"; };
 		74AA395A2AF68F3900BA2BA5 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 		74AA39632AF6B7FC00BA2BA5 /* emojiPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiPopup.swift; sourceTree = "<group>"; };
+		BDA6E8092AF749E8000229F6 /* HttpClientHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientHelper.swift; sourceTree = "<group>"; };
+		BDA6E80C2AF74A23000229F6 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BDA6E80F2AF74A4E000229F6 /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		BDA6E8112AF74A60000229F6 /* LoadingError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingError.swift; sourceTree = "<group>"; };
+		BDA6E8162AF74AA5000229F6 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		BDA6E8192AF74AD4000229F6 /* LoginDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDataAccess.swift; sourceTree = "<group>"; };
+		BDA6E81B2AF74B12000229F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BDA6E81D2AF750FD000229F6 /* LandmarkDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDataAccess.swift; sourceTree = "<group>"; };
+		BDA6E81F2AF75131000229F6 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		BDA6E8212AF75210000229F6 /* LandmarkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkViewModel.swift; sourceTree = "<group>"; };
+		BDA6E8232AF75239000229F6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BDA6E8252AF75258000229F6 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
+		BDA6E8272AF7535A000229F6 /* InteractionDataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionDataAccess.swift; sourceTree = "<group>"; };
+		BDA6E8292AF75384000229F6 /* Interaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interaction.swift; sourceTree = "<group>"; };
+		BDA6E82B2AF755A2000229F6 /* InteractionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionViewModel.swift; sourceTree = "<group>"; };
+		BDA6E82D2AF75D32000229F6 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		BDA6E82F2AF7669C000229F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDA6E8302AF778CC000229F6 /* CreateUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +149,10 @@
 		74AA39242AF60BC600BA2BA5 /* HelloWorldApp */ = {
 			isa = PBXGroup;
 			children = (
+				BDA6E82F2AF7669C000229F6 /* Info.plist */,
+				BDA6E8182AF74AB9000229F6 /* DataAccess */,
+				BDA6E8152AF74A99000229F6 /* ViewModels */,
+				BDA6E80B2AF74A0A000229F6 /* Models */,
 				74AA39622AF6B7D800BA2BA5 /* Views */,
 				74AA39512AF6181200BA2BA5 /* Utilities */,
 				74AA39252AF60BC600BA2BA5 /* HelloWorldAppApp.swift */,
@@ -152,6 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				74AA39522AF6182500BA2BA5 /* SFSymbols.swift */,
+				BDA6E8092AF749E8000229F6 /* HttpClientHelper.swift */,
+				BDA6E8232AF75239000229F6 /* LocationManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -169,8 +210,52 @@
 				747290052AF6EA0800A1A022 /* selfieCamera.swift */,
 				747290072AF749E400A1A022 /* LoginView.swift */,
 				747290082AF749E400A1A022 /* Image.swift */,
+				BDA6E82D2AF75D32000229F6 /* CreateAccountView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		BDA6E80B2AF74A0A000229F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6E80E2AF74A42000229F6 /* Enums */,
+				BDA6E80C2AF74A23000229F6 /* Result.swift */,
+				BDA6E81B2AF74B12000229F6 /* User.swift */,
+				BDA6E81F2AF75131000229F6 /* Landmark.swift */,
+				BDA6E8252AF75258000229F6 /* Coordinate.swift */,
+				BDA6E8292AF75384000229F6 /* Interaction.swift */,
+				BDA6E8302AF778CC000229F6 /* CreateUserResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BDA6E80E2AF74A42000229F6 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6E80F2AF74A4E000229F6 /* LoadingState.swift */,
+				BDA6E8112AF74A60000229F6 /* LoadingError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BDA6E8152AF74A99000229F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6E8162AF74AA5000229F6 /* LoginViewModel.swift */,
+				BDA6E8212AF75210000229F6 /* LandmarkViewModel.swift */,
+				BDA6E82B2AF755A2000229F6 /* InteractionViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BDA6E8182AF74AB9000229F6 /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				BDA6E8192AF74AD4000229F6 /* LoginDataAccess.swift */,
+				BDA6E81D2AF750FD000229F6 /* LandmarkDataAccess.swift */,
+				BDA6E8272AF7535A000229F6 /* InteractionDataAccess.swift */,
+			);
+			path = DataAccess;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,12 +392,29 @@
 				7472900A2AF749E400A1A022 /* Image.swift in Sources */,
 				74728FF22AF6CD7000A1A022 /* mainTimeline.swift in Sources */,
 				747290062AF6EA0800A1A022 /* selfieCamera.swift in Sources */,
+				BDA6E8202AF75131000229F6 /* Landmark.swift in Sources */,
 				74AA39282AF60BC600BA2BA5 /* appWrapper.swift in Sources */,
+				BDA6E82C2AF755A2000229F6 /* InteractionViewModel.swift in Sources */,
+				BDA6E8262AF75258000229F6 /* Coordinate.swift in Sources */,
 				747290042AF6E9D600A1A022 /* ViewController.swift in Sources */,
+				BDA6E81A2AF74AD4000229F6 /* LoginDataAccess.swift in Sources */,
+				BDA6E82E2AF75D32000229F6 /* CreateAccountView.swift in Sources */,
+				BDA6E8102AF74A4E000229F6 /* LoadingState.swift in Sources */,
+				BDA6E8222AF75210000229F6 /* LandmarkViewModel.swift in Sources */,
+				BDA6E8282AF7535A000229F6 /* InteractionDataAccess.swift in Sources */,
+				BDA6E81C2AF74B12000229F6 /* User.swift in Sources */,
+				BDA6E82A2AF75384000229F6 /* Interaction.swift in Sources */,
 				74AA39262AF60BC600BA2BA5 /* HelloWorldAppApp.swift in Sources */,
+				BDA6E80D2AF74A23000229F6 /* Result.swift in Sources */,
+				BDA6E8172AF74AA5000229F6 /* LoginViewModel.swift in Sources */,
+				BDA6E81E2AF750FD000229F6 /* LandmarkDataAccess.swift in Sources */,
+				BDA6E80A2AF749E8000229F6 /* HttpClientHelper.swift in Sources */,
+				BDA6E8122AF74A60000229F6 /* LoadingError.swift in Sources */,
 				74AA39572AF68F2000BA2BA5 /* friendsTimeline.swift in Sources */,
+				BDA6E8242AF75239000229F6 /* LocationManager.swift in Sources */,
 				74AA39532AF6182500BA2BA5 /* SFSymbols.swift in Sources */,
 				747290092AF749E400A1A022 /* LoginView.swift in Sources */,
+				BDA6E8312AF778CC000229F6 /* CreateUserResponse.swift in Sources */,
 				74AA39592AF68F3200BA2BA5 /* scrapbook.swift in Sources */,
 				74AA39642AF6B7FC00BA2BA5 /* emojiPopup.swift in Sources */,
 			);
@@ -403,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -460,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -478,21 +580,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorldApp/Preview Content\"";
-				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				DEVELOPMENT_TEAM = X3N2CFBLA9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorldApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = what.HelloWorldApp;
+				PRODUCT_BUNDLE_IDENTIFIER = what.HelloWorldApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -508,21 +612,23 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HelloWorldApp/Preview Content\"";
-				DEVELOPMENT_TEAM = FHVKV8SUYW;
+				DEVELOPMENT_TEAM = X3N2CFBLA9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloWorldApp/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = what.HelloWorldApp;
+				PRODUCT_BUNDLE_IDENTIFIER = what.HelloWorldApp1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

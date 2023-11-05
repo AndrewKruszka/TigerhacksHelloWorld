@@ -11,10 +11,27 @@ struct LoginView: View {
     @State var email: String = ""
     @State var password: String = ""
     @State var displayPassword: Bool = false
+    @ObservedObject var viewModel: LoginViewModel
+
+    init(viewModel: LoginViewModel)
+    {
+        self.viewModel = viewModel
+    }
+    
+    init()
+    {
+        self.viewModel = LoginViewModel()
+    }
     
     func handleLogin() {
-        print("Hello, World!")
+        if(email.isEmpty || password.isEmpty)
+        {
+            return;
+        }
+        
+        viewModel.Login(username: email, password: password)
     }
+    
     var body: some View {
         Form {
             Section(header: Text("Login").font(.title)) {
